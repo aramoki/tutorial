@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+using namespace std;
+<<<<<<< HEAD
+
+int subnumbers(int a,int b)
+{
+ return (a-b)
+}
+
+int main() {
+	printf("3 - 2 = %i",subnumbers(3,2));
+=======
+int addnumbers(int a, int b){
+	return a + b;
+}
+int main() {
+	printf("1 + 2 = %i\n", addnumbers(a,b));
+	
+>>>>>>> yeni-ozellik
+	return 0;
+}
